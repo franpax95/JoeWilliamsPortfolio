@@ -65,7 +65,7 @@
 .Project.c-word .Img.medium{ background-color: #625455; }
 .Project.fluttering-flamingo .Img.medium{ background-color: #935a49; }
 .Project.lara-logan .Img.medium{ background-color: #78423c; }
-.Project.human-herd .Img.medium{ background-color: #625455; }
+.Project.human-herd .Img.small{ background-color: #625455; }
 
 .Project .Frame{
     min-height: 70vh;
