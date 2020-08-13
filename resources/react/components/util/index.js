@@ -1,19 +1,14 @@
 import React, { useRef } from 'react';
 import './styles.css';
 
-
-
-
 /** to insert some space between components */
 export const SpaceBetween = ({ height = '100px'}) => <div style={{ height: height, minHeight: height}}></div>;
-
-
 
 /** loader/spinner */
 export const Loading = ({ size = '64px' }) => {
     const divSize = `${parseInt(size)}px`;
     return (
-        <div className="Loading" style={{ width: size, height: size }}>
+        <div className="Loading center" style={{ width: size, height: size }}>
             <div style={{ width: divSize, height: divSize }}></div>
             <div style={{ width: divSize, height: divSize }}></div>
             <div style={{ width: divSize, height: divSize }}></div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Modal.css';
-import {Button} from '../Button';
+import {Button,ButtonLink} from '../Button';
 
 export const Modal = ({sentEmail,onClickButton}) => {
 
@@ -26,7 +26,9 @@ export const Modal = ({sentEmail,onClickButton}) => {
                 showMessageEmail()
             }
             <br />
-            <Button text={sentEmail ? 'HOME' : 'RETRY'} type='button' clase='modal-button' onClick={sentEmail ? undefined : onClickButton }/>
+            {
+                sentEmail ?  <ButtonLink text='HOME' type='button' clase='modal-button'/> :  <Button text='RETRY' type='button' clase='modal-button' onClick={onClickButton }/>
+            }
         </div>
     </div>
     )

@@ -9,3 +9,13 @@ export const Button = ({text, type, clase, onClick}) => {
         </button>
     );
 }
+
+export const ButtonLink = ({text,type, clase, onClick}) => {
+    return (
+        <button type={type} className={`${clase} alignc justifyc`} onClick={onClick}>
+            {
+                <Link to="/">{text}</Link>
+            }
+        </button>
+    )
+}
