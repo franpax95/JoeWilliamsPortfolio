@@ -6551,7 +6551,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "/* pure css loader */\r\n.Loading{\r\n    width: 10%;\r\n    height: 18vh;\r\n    /* text-align: center; */\r\n    position: absolute;\r\n    right: 43%;\r\n    top: 70%;\r\n    bottom: 0;\r\n}\r\n\r\n.Loading .spinner {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: 80px;\r\n    height: 80px;\r\n  }\r\n.Loading .spinner div {\r\n    box-sizing: border-box;\r\n    display: block;\r\n    position: absolute;\r\n    width: 64px;\r\n    height: 64px;\r\n    margin: 8px;\r\n    border: 8px solid #000000;\r\n    border-radius: 50%;\r\n    animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\r\n    border-color: #000000 transparent transparent transparent;\r\n}\r\n.Loading .spinner div:nth-child(1) {\r\n    animation-delay: -0.45s;\r\n}\r\n.Loading .spinner div:nth-child(2) {\r\n    animation-delay: -0.3s;\r\n}\r\n.Loading .spinner div:nth-child(3) {\r\n    animation-delay: -0.15s;\r\n}\r\n@keyframes spinner {\r\n    0% {\r\n      transform: rotate(0deg);\r\n    }\r\n    100% {\r\n      transform: rotate(360deg);\r\n    }\r\n}\r\n\r\n\r\n\r\n.ProjectsLayout{\r\n    height: 100%;\r\n\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n\r\n    overflow-y: hidden;\r\n    overflow-x: scroll;\r\n}\r\n.ProjectsLayout::-webkit-scrollbar { height: 5px; }\r\n.ProjectsLayout::-webkit-scrollbar-track { background: lightgray; }/* Track */\r\n.ProjectsLayout::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */\r\n.ProjectsLayout::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */", ""]);
+exports.push([module.i, "/* pure css loader */\r\n.Loading{\r\n    width: 10%;\r\n    height: 18vh;\r\n    /* text-align: center; */\r\n    position: absolute;\r\n    right: 43%;\r\n    top: 70%;\r\n    bottom: 0;\r\n}\r\n\r\n.Loading .spinner {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: 80px;\r\n    height: 80px;\r\n  }\r\n.Loading .spinner div {\r\n    box-sizing: border-box;\r\n    display: block;\r\n    position: absolute;\r\n    width: 64px;\r\n    height: 64px;\r\n    margin: 8px;\r\n    border: 8px solid #000000;\r\n    border-radius: 50%;\r\n    animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\r\n    border-color: #000000 transparent transparent transparent;\r\n}\r\n.Loading .spinner div:nth-child(1) {\r\n    animation-delay: -0.45s;\r\n}\r\n.Loading .spinner div:nth-child(2) {\r\n    animation-delay: -0.3s;\r\n}\r\n.Loading .spinner div:nth-child(3) {\r\n    animation-delay: -0.15s;\r\n}\r\n@keyframes spinner {\r\n    0% {\r\n      transform: rotate(0deg);\r\n    }\r\n    100% {\r\n      transform: rotate(360deg);\r\n    }\r\n}\r\n\r\n.ProjectsLayout{\r\n    height: 100%;\r\n\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n\r\n    overflow-y: hidden;\r\n    overflow-x: scroll;\r\n}\r\n.ProjectsLayout::-webkit-scrollbar { height: 5px; }\r\n.ProjectsLayout::-webkit-scrollbar-track { background: lightgray; }/* Track */\r\n.ProjectsLayout::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */\r\n.ProjectsLayout::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */\r\n\r\n.center{\r\n    width: 10%;\r\n    height: 18vh;\r\n    position: absolute;\r\n    right: 43%;\r\n    top: 70%;\r\n    bottom: 0;\r\n}", ""]);
 
 // exports
 
@@ -85211,12 +85211,13 @@ var App = function App() {
 /*!****************************************************!*\
   !*** ./resources/react/components/Button/index.js ***!
   \****************************************************/
-/*! exports provided: Button */
+/*! exports provided: Button, ButtonLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return Button; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonLink", function() { return ButtonLink; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.css */ "./resources/react/components/Button/styles.css");
@@ -85237,6 +85238,19 @@ var Button = function Button(_ref) {
   }, text === 'HOME' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/home"
   }, text) : text);
+};
+var ButtonLink = function ButtonLink(_ref2) {
+  var text = _ref2.text,
+      type = _ref2.type,
+      clase = _ref2.clase,
+      onClick = _ref2.onClick;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: type,
+    className: "".concat(clase, " alignc justifyc"),
+    onClick: onClick
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/"
+  }, text));
 };
 
 /***/ }),
@@ -85526,11 +85540,15 @@ var Modal = function Modal(_ref) {
     className: "overlay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "modal flex alignc justifyc"
-  }, showMessageEmail(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["Button"], {
-    text: sentEmail ? 'HOME' : 'RETRY',
+  }, showMessageEmail(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), sentEmail ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["ButtonLink"], {
+    text: "HOME",
+    type: "button",
+    clase: "modal-button"
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+    text: "RETRY",
     type: "button",
     clase: "modal-button",
-    onClick: sentEmail ? undefined : onClickButton
+    onClick: onClickButton
   })));
 };
 

@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="es">
     <body>
-        <h1>Hola me llamo , {{$name}} y mi emial es {{$email}} !</h1>
+        <h3>Name: {{$name}}</h3>
+        <h3>Email: {{$email}}</h3>
+        <h2 style="text-decoration-line: underline;">Message: </h2>
         <p>{{$messageBody}}</p>
     </body>
 </html>
