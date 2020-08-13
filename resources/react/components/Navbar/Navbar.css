@@ -1,0 +1,69 @@
+.Navbar{
+    z-index: 1000;
+
+    position: fixed;
+    right: 3vw;
+    top: 2vh;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar > *{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+
+    transition: color .2s, font-size .2s;
+}
+
+.Navbar a{ margin-left: 20px; }
+
+.Navbar .black{ color: #666666; }
+.Navbar .black:hover{ color: #262626; }
+.Navbar .white{ color: white; }
+.Navbar .white:hover{ color: gray; }
+
+.Navbar .ButtonToOpen,
+.Navbar .ButtonToClose {
+    z-index: 1050;
+    margin-top: 5px;
+    background: none;
+}
+.Navbar .ButtonToClose:hover{ color: red; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Navbar a{ font-size: 13px; }
+    .Navbar button{ font-size: 24px; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Navbar a{ font-size: 14px; }
+    .Navbar button{ font-size: 26px; }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Navbar a{ font-size: 15px; }
+    .Navbar button{ font-size: 28px; }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Navbar a{ font-size: 16px; }
+    .Navbar button{ font-size: 30px; }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Navbar a{ font-size: 18px; }
+    .Navbar button{ font-size: 34px; }
+}

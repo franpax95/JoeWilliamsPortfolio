@@ -1,0 +1,44 @@
+.Input-Container:not(#container-input) {
+    border-bottom: 2px solid white;
+    color: white;
+    /* margin-bottom: 70px; */
+}
+
+.Input-Container > *:not(textarea) {
+    width: 95%;
+    border: none;
+    color: white;
+    background: transparent;
+    min-height: 60px;
+}
+
+.Input-Container input {
+    margin: 15px 0;
+}
+
+.Input-Container textarea{
+    margin-top: 30px;
+    width: 95%;
+    border: none;
+    color: white;
+    resize: none;
+    background: transparent;
+    min-height: 120px;
+}
+
+.Input-Container textarea:focus,input:focus  {
+    outline: none;
+}
+
+.Input-Container input:-webkit-autofill,
+.Input-Container input:-webkit-autofill:hover,
+.Input-Container input:-webkit-autofill:focus,
+.Input-Container input:-webkit-autofill:active {
+   -webkit-transition-delay: 9999s;
+   transition-delay: 9999s;
+}
+
+.Input-Container ::-webkit-input-placeholder { color:#fff;  }
+.Input-Container ::-moz-placeholder { color:#ffff; } 
+.Input-Container :-ms-input-placeholder { color:#ffff; }  
+.Input-Container input:-moz-placeholder { color:#ffff; } 

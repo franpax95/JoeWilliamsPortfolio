@@ -1,0 +1,53 @@
+.Home{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("/image/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+
+    color: white;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    transition: font-size .2s;
+}
+
+@media only screen and (max-width: 300px) {
+    .Home{ font-size: 9px; }
+}
+
+@media only screen and (min-width: 300px) {
+    .Home{ font-size: 11px; }
+}
+
+@media only screen and (min-width: 350px) {
+    .Home{ font-size: 13px; }
+}
+
+@media only screen and (min-width: 450px) {
+    .Home{ font-size: 15px; }
+}
+
+@media only screen and (min-width: 600px) {
+    .Home{ font-size: 18px; }
+}
+
+@media only screen and (min-width: 768px) {
+    .Home{ font-size: 22px; }
+}
+
+@media only screen and (min-width: 992px) {
+    .Home{ font-size: 26px; }
+}
+
+@media only screen and (min-width: 1200px) {
+    .Home{ font-size: 2.2vw; }
+}

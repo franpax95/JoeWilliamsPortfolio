@@ -1,0 +1,33 @@
+.ProjectCard{
+    height: 60vh;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.ProjectCard img{
+    object-fit: contain;
+    height: 100%;
+}
+
+.FlutteringFlamingo {
+    min-width: 60vh;
+    background-color: #935a49;
+}
+
+.FlutteringFlamingo img {
+    height: 90%;
+    align-self: center;
+}
+
+.TheLaraLoganCase {
+    min-width: 60vh;
+    background-color: #78423c;
+}
+
+.TheLaraLoganCase img {
+    height: 90%;
+    align-self: center;
+}

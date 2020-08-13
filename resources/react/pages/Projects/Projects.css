@@ -1,0 +1,39 @@
+@media only screen and (max-width: 300px) {
+    .Projects > *:first-child > *{ margin-left: 18px; }
+    .Projects > *:last-child > *{ margin-right: 18px; } 
+}
+
+@media only screen and (min-width: 300px) {
+    .Projects > *:first-child > *{ margin-left: 20px; }
+    .Projects > *:last-child > *{ margin-right: 20px; } 
+}
+
+@media only screen and (min-width: 350px) {
+    .Projects > *:first-child > *{ margin-left: 22px; }
+    .Projects > *:last-child > *{ margin-right: 22px; } 
+}
+
+@media only screen and (min-width: 450px) {
+    .Projects > *:first-child > *{ margin-left: 25px; }
+    .Projects > *:last-child > *{ margin-right: 25px; } 
+}
+
+@media only screen and (min-width: 600px) {
+    .Projects > *:first-child > *{ margin-left: 30px; }
+    .Projects > *:last-child > *{ margin-right: 30px; } 
+}
+
+@media only screen and (min-width: 768px) {
+    .Projects > *:first-child > *{ margin-left: 40px; }
+    .Projects > *:last-child > *{ margin-right: 40px; } 
+}
+
+@media only screen and (min-width: 992px) {
+    .Projects > *:first-child > *{ margin-left: 55px; }
+    .Projects > *:last-child > *{ margin-right: 55px; } 
+}
+
+@media only screen and (min-width: 1200px) {
+    .Projects > *:first-child > *{ margin-left: 80px; }
+    .Projects > *:last-child > *{ margin-right: 80px; } 
+}
