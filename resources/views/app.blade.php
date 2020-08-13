@@ -7,6 +7,8 @@
     <title>Joe Williams</title>
     <!-- Styles -->
     <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+    <!-- SEO -->
+    {!! SEO::generate() !!}
 </head>
 
 <body>
