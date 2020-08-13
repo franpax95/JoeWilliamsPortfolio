@@ -6551,7 +6551,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "/* pure css loader */\r\n.Loading {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: 80px;\r\n    height: 80px;\r\n  }\r\n.Loading div {\r\n    box-sizing: border-box;\r\n    display: block;\r\n    position: absolute;\r\n    width: 64px;\r\n    height: 64px;\r\n    margin: 8px;\r\n    border: 8px solid #253a46;\r\n    border-radius: 50%;\r\n    animation: Loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\r\n    border-color: #253a46 transparent transparent transparent;\r\n}\r\n.Loading div:nth-child(1) {\r\n    animation-delay: -0.45s;\r\n}\r\n.Loading div:nth-child(2) {\r\n    animation-delay: -0.3s;\r\n}\r\n.Loading div:nth-child(3) {\r\n    animation-delay: -0.15s;\r\n}\r\n@keyframes Loading {\r\n    0% {\r\n      transform: rotate(0deg);\r\n    }\r\n    100% {\r\n      transform: rotate(360deg);\r\n    }\r\n}\r\n\r\n\r\n\r\n.ProjectsLayout{\r\n    height: 100%;\r\n\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n\r\n    overflow-y: hidden;\r\n    overflow-x: scroll;\r\n}\r\n.ProjectsLayout::-webkit-scrollbar { height: 5px; }\r\n.ProjectsLayout::-webkit-scrollbar-track { background: lightgray; }/* Track */\r\n.ProjectsLayout::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */\r\n.ProjectsLayout::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */", ""]);
+exports.push([module.i, "/* pure css loader */\r\n.Loading{\r\n    width: 10%;\r\n    height: 18vh;\r\n    /* text-align: center; */\r\n    position: absolute;\r\n    right: 43%;\r\n    top: 70%;\r\n    bottom: 0;\r\n}\r\n\r\n.Loading .spinner {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: 80px;\r\n    height: 80px;\r\n  }\r\n.Loading .spinner div {\r\n    box-sizing: border-box;\r\n    display: block;\r\n    position: absolute;\r\n    width: 64px;\r\n    height: 64px;\r\n    margin: 8px;\r\n    border: 8px solid #000000;\r\n    border-radius: 50%;\r\n    animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;\r\n    border-color: #000000 transparent transparent transparent;\r\n}\r\n.Loading .spinner div:nth-child(1) {\r\n    animation-delay: -0.45s;\r\n}\r\n.Loading .spinner div:nth-child(2) {\r\n    animation-delay: -0.3s;\r\n}\r\n.Loading .spinner div:nth-child(3) {\r\n    animation-delay: -0.15s;\r\n}\r\n@keyframes spinner {\r\n    0% {\r\n      transform: rotate(0deg);\r\n    }\r\n    100% {\r\n      transform: rotate(360deg);\r\n    }\r\n}\r\n\r\n\r\n\r\n.ProjectsLayout{\r\n    height: 100%;\r\n\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    flex-direction: row;\r\n    justify-content: flex-start;\r\n    align-items: flex-end;\r\n\r\n    overflow-y: hidden;\r\n    overflow-x: scroll;\r\n}\r\n.ProjectsLayout::-webkit-scrollbar { height: 5px; }\r\n.ProjectsLayout::-webkit-scrollbar-track { background: lightgray; }/* Track */\r\n.ProjectsLayout::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */\r\n.ProjectsLayout::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */", ""]);
 
 // exports
 
@@ -85887,7 +85887,9 @@ var Loading = function Loading(_ref2) {
       size = _ref2$size === void 0 ? '64px' : _ref2$size;
   var divSize = "".concat(parseInt(size), "px");
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Loading",
+    className: "Loading"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "spinner",
     style: {
       width: size,
       height: size
@@ -85912,7 +85914,7 @@ var Loading = function Loading(_ref2) {
       width: divSize,
       height: divSize
     }
-  }));
+  })));
 };
 /** error messages */
 

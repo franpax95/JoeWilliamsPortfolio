@@ -13,11 +13,13 @@ export const SpaceBetween = ({ height = '100px'}) => <div style={{ height: heigh
 export const Loading = ({ size = '64px' }) => {
     const divSize = `${parseInt(size)}px`;
     return (
-        <div className="Loading" style={{ width: size, height: size }}>
-            <div style={{ width: divSize, height: divSize }}></div>
-            <div style={{ width: divSize, height: divSize }}></div>
-            <div style={{ width: divSize, height: divSize }}></div>
-            <div style={{ width: divSize, height: divSize }}></div>
+        <div className="Loading">
+            <div className="spinner" style={{ width: size, height: size }}>
+                <div style={{ width: divSize, height: divSize }}></div>
+                <div style={{ width: divSize, height: divSize }}></div>
+                <div style={{ width: divSize, height: divSize }}></div>
+                <div style={{ width: divSize, height: divSize }}></div>
+            </div>
         </div>
     );
 };
