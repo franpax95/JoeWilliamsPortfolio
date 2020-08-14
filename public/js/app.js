@@ -6589,7 +6589,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Contact-Container {\r\n    width: 100%;\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 1em;\r\n        line-height: 40px; \r\n    }\r\n    .Input-Container ::-webkit-input-placeholder { \r\n        line-height: 40px;  \r\n    }\r\n    .Input-Container input:focus {\r\n        outline: none;\r\n        text-decoration: none;\r\n        border: none;\r\n    }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 18px;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".Contact-Container {\r\n    overflow: hidden;\r\n    width: 100%;\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n.Contact-Container::-webkit-scrollbar { width: 5px; }\r\n.Contact-Container::-webkit-scrollbar-track { background: lightgray; }\r\n.Contact-Container::-webkit-scrollbar-thumb { background: darkgray; }\r\n.Contact-Container::-webkit-scrollbar-thumb:hover { background: gray;  }\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 1em;\r\n        line-height: 40px; \r\n    }\r\n    .Input-Container ::-webkit-input-placeholder { \r\n        line-height: 40px;  \r\n    }\r\n    .Input-Container input:focus {\r\n        outline: none;\r\n        text-decoration: none;\r\n        border: none;\r\n    }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 18px;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -86951,7 +86951,7 @@ var CHANGE_DESCRIPTION = 'projects_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\_Workbenchs\JoeWilliamsPortfolio\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWilliams\JoeWilliamsPortfolio\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
