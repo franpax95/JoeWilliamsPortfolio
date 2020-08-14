@@ -1,10 +1,14 @@
 .About{
     width: 100%;
+    min-height: 100vh;
     padding-left: 20px;
     padding-bottom: 10vh;
 
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
 
+    overflow: hidden;
     color: white;
     background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);
     background-attachment: fixed;
@@ -12,27 +16,58 @@
 }
 .About > span{ text-transform: uppercase; }
 .About .hello{ color: black; }
-
-/* Extra small devices (phones, 700px and down) */
-@media only screen and (max-width: 700px) {
-    .About{
-        padding-right: 20px;
-        line-height: 40px;
-    }
-    .About > span{ 
-        height: 4vh;
-        font-size: 18px;
-        margin-right: 8px;
-    }
+.About *{ 
+    white-space: nowrap;
+    transition: font-size .2s;
+}
+/** lower than 600px -> line-height*/
+@media only screen and (max-width: 600px) {
+    .About > * { line-height: calc(3vh + 12px); }
 }
 
-@media only screen and (min-width: 700px) {
-    .About{
-        display: flex;
-        flex-direction: column;
-    }
-    .About > span{ 
-        height: 10vh;
-        font-size: 3vw;
+@media only screen and (max-width: 300px) {
+    .About{ font-size: 9px; }
+    .About .Br{ min-height: 50px; }
+}
+
+@media only screen and (min-width: 300px) {
+    .About{ font-size: 11px; }
+    .About .Br{ min-height: 80px; }
+}
+
+@media only screen and (min-width: 350px) {
+    .About{ font-size: 13px; }
+    .About .Br{ min-height: 100px; }
+}
+
+@media only screen and (min-width: 450px) {
+    .About{ font-size: 17px; }
+    .About .Br{ min-height: 120px; }
+}
+
+@media only screen and (min-width: 550px) {
+    .About{ font-size: 19px; }
+    .About .Br{ min-height: 140px; }
+}
+
+@media only screen and (min-width: 600px) {
+    .About{ font-size: 22px; }
+    .About .Br{ min-height: 13vh; }
+}
+
+@media only screen and (min-width: 768px) {
+    .About{ font-size: 28px; }
+    .About .Br{ min-height: 16vh; }
+}
+
+@media only screen and (min-width: 992px) {
+    .About{ font-size: 2.6vw; }
+    .About .Br{ min-height: 22vh; }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* .About{ font-size: 3vw; } */
+    .About .Br{ 
+        min-height: 20vh; 
     }
 }

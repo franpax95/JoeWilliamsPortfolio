@@ -37,16 +37,20 @@
     transition: font-size .2s; 
 }
 .Project .Description .desc{ 
-    width: 80vw;
+    width: 65vw;
     margin-top: auto;
 }
 .Project .Description .type{
-    width: 80vw;
+    width: 65vw;
     justify-self: flex-end;
     margin-top: auto;
     font-size: 0.9em; 
 }
-.Project .Details p{ width: 60vw; }
+.Project .Details p{ 
+    width: 75vw;
+    padding-bottom: 15vh;
+    padding-right: 10vw;
+}
 
 .Project .Img{
     height: 75vh;
@@ -73,8 +77,13 @@
 }
 @media only screen and (max-width: 600px) {
     .Project .Frame{
-        min-height: 45vw;
-        min-width: 90vw;
+        min-height: 80vw;
+        min-width: 120vw;
+    }
+    .Project .Description .desc,
+    .Project .Description .type,
+    .Project .Details {
+        line-height: calc(3vh + 5px);
     }
 }
 

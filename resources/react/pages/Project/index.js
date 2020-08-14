@@ -85,7 +85,7 @@ const Project = props => {
             /** Sync */
             case 3:
                 return <>
-                    <iframe src="https://player.vimeo.com/video/300053745" className="Frame" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+                    <Img src={project.img.img1} alt={project.title} />
                 </>;
             /** fluttering flamingo */
             case 4:
@@ -101,7 +101,7 @@ const Project = props => {
             /** Synchronicity */
             case 5:
                 return <>
-                    <Img src={project.img.img1} alt={project.title} />
+                    <iframe src="https://player.vimeo.com/video/300053745" className="Frame" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
                 </>;
             /** lara logan case */
             case 6:
@@ -134,7 +134,7 @@ const Project = props => {
     return (
         <ProjectsLayout className={`Project ${className}`}>
             <div className="title">{project.title || ''}</div>
-            <Link className="back" to="/projects"><AiOutlineArrowLeft /></Link>
+            {/* <Link className="back" to="/projects"><AiOutlineArrowLeft /></Link> */}
 
             {Object.values(project).length && <Description description={project.description} type={project.type} />}
             {Object.values(project).length && renderProject()}
