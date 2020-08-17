@@ -37,11 +37,11 @@
     transition: font-size .2s; 
 }
 .Project .Description .desc{ 
-    width: 65vw;
+    width: 51vw;
     margin-top: auto;
 }
 .Project .Description .type{
-    width: 65vw;
+    width: 51vw;
     justify-self: flex-end;
     margin-top: auto;
     font-size: 0.9em; 
@@ -217,13 +217,13 @@
 @media only screen and (min-width: 1200px) {
     .Project .title,
     .Project .back {
-        font-size: 28px;
-        left: 55px;
+        font-size: 25px;
+        left: 28px;
     }
     .Project > *:last-child{ padding: 55px;  }
     .Project .Description{
-        padding: 0 80px 0 55px;
-        font-size: 17px;
+        padding: 0 60px 0 28px;
+        font-size: 13px;
     }
     .Project .Details{
         padding: 0 80px;
