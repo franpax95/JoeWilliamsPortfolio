@@ -6,11 +6,6 @@
     background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);
 }
 
-.Contact-Container::-webkit-scrollbar { width: 5px; }
-.Contact-Container::-webkit-scrollbar-track { background: lightgray; }
-.Contact-Container::-webkit-scrollbar-thumb { background: darkgray; }
-.Contact-Container::-webkit-scrollbar-thumb:hover { background: gray;  }
-
 /* Mobile Style */
 
 /* 600px and down */

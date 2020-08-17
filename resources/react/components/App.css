@@ -21,8 +21,15 @@ html, body, #app, .App{
 }
 
 .App{
+    overflow: auto;
+    overflow-y: auto;
     overflow-x: hidden;
 }
+
+.App::-webkit-scrollbar { width: 5px; }
+.App::-webkit-scrollbar-track { background: lightgray; }
+.App::-webkit-scrollbar-thumb { background: darkgray; }
+.App::-webkit-scrollbar-thumb:hover { background: gray;  }
 
 a{ text-decoration: none; }
 
