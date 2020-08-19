@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Project.css';
-
-import { Link } from 'react-router-dom';
-
 import { ProjectsLayout, nl2br } from '../../components/util';
-
-import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 
 /** Description + type component */
