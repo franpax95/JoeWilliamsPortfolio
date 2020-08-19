@@ -6570,7 +6570,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".About{\r\n    width: 100%;\r\n    min-height: 100vh;\r\n    padding-left: 20px;\r\n    padding-bottom: 10vh;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    \r\n\r\n    overflow: hidden;\r\n    color: white;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n}\r\n.About > span{ text-transform: uppercase; }\r\n.About .hello{ color: black; }\r\n.About *{ \r\n    white-space: nowrap;\r\n    transition: font-size .2s;\r\n}\r\n/** lower than 600px -> line-height*/\r\n@media only screen and (max-width: 600px) {\r\n    .About > * { line-height: calc(3vh + 12px); }\r\n}\r\n\r\n@media only screen and (max-width: 300px) {\r\n    .About{ font-size: 9px; }\r\n    .About .Br{ min-height: 50px; }\r\n}\r\n\r\n@media only screen and (min-width: 300px) {\r\n    .About{ font-size: 11px; }\r\n    .About .Br{ min-height: 80px; }\r\n}\r\n\r\n@media only screen and (min-width: 350px) {\r\n    .About{ font-size: 13px; }\r\n    .About .Br{ min-height: 100px; }\r\n}\r\n\r\n@media only screen and (min-width: 450px) {\r\n    .About{ font-size: 17px; }\r\n    .About .Br{ min-height: 120px; }\r\n}\r\n\r\n@media only screen and (min-width: 550px) {\r\n    .About{ font-size: 19px; }\r\n    .About .Br{ min-height: 140px; }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .About{ font-size: 22px; }\r\n    .About .Br{ min-height: 13vh; }\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n    .About{ font-size: 28px; }\r\n    .About .Br{ min-height: 16vh; }\r\n}\r\n\r\n@media only screen and (min-width: 992px) {\r\n    .About{ font-size: 2.6vw; }\r\n    .About .Br{ min-height: 22vh; }\r\n}\r\n\r\n@media only screen and (min-width: 1200px) {\r\n    /* .About{ font-size: 3vw; } */\r\n    .About .Br{ \r\n        min-height: 20vh; \r\n    }\r\n}", ""]);
+exports.push([module.i, ".About{\r\n    width: 100%;\r\n    min-height: 100vh;\r\n    padding-left: 20px;\r\n    padding-bottom: 10vh;\r\n\r\n    display: flex;\r\n    flex-direction: column;\r\n    \r\n\r\n    overflow: hidden;\r\n    color: white;\r\n    \r\n    background-image: url(\"/image/gradient2.jpg\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment: fixed;\r\n    background-position: center center;\r\n}\r\n.About > span{ text-transform: uppercase; }\r\n.About .hello{ color: black; }\r\n.About *{ \r\n    white-space: nowrap;\r\n    transition: font-size .2s;\r\n}\r\n/** lower than 600px -> line-height*/\r\n@media only screen and (max-width: 600px) {\r\n    .About > * { line-height: calc(3vh + 12px); }\r\n}\r\n\r\n@media only screen and (max-width: 300px) {\r\n    .About{ font-size: 9px; }\r\n    .About .Br{ min-height: 50px; }\r\n}\r\n\r\n@media only screen and (min-width: 300px) {\r\n    .About{ font-size: 11px; }\r\n    .About .Br{ min-height: 80px; }\r\n}\r\n\r\n@media only screen and (min-width: 350px) {\r\n    .About{ font-size: 13px; }\r\n    .About .Br{ min-height: 100px; }\r\n}\r\n\r\n@media only screen and (min-width: 450px) {\r\n    .About{ font-size: 17px; }\r\n    .About .Br{ min-height: 120px; }\r\n}\r\n\r\n@media only screen and (min-width: 550px) {\r\n    .About{ font-size: 19px; }\r\n    .About .Br{ min-height: 140px; }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .About{ font-size: 22px; }\r\n    .About .Br{ min-height: 13vh; }\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n    .About{ font-size: 28px; }\r\n    .About .Br{ min-height: 16vh; }\r\n}\r\n\r\n@media only screen and (min-width: 992px) {\r\n    .About{ font-size: 2.6vw; }\r\n    .About .Br{ min-height: 22vh; }\r\n}\r\n\r\n@media only screen and (min-width: 1200px) {\r\n    /* .About{ font-size: 3vw; } */\r\n    .About .Br{ \r\n        min-height: 20vh; \r\n    }\r\n}", ""]);
 
 // exports
 
@@ -6589,7 +6589,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Contact-Container {\r\n    overflow: hidden;\r\n    width: 100%;\r\n    align-items: center;\r\n    flex-flow: column;\r\n    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%, rgba(244,238,238,1) 30%, rgba(223,205,205,1) 79%, rgba(223,205,205,1) 93%);\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 1em;\r\n        line-height: 40px; \r\n    }\r\n    .Input-Container ::-webkit-input-placeholder { \r\n        line-height: 40px;  \r\n    }\r\n    .Input-Container input:focus {\r\n        outline: none;\r\n        text-decoration: none;\r\n        border: none;\r\n    }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 18px;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".Contact-Container {\r\n    overflow: hidden;\r\n    width: 100%;\r\n    align-items: center;\r\n    flex-flow: column;\r\n   \r\n    background-image: url(\"/image/gradient2.jpg\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment: fixed;\r\n    background-position: center center;\r\n}\r\n\r\n/* Mobile Style */\r\n\r\n/* 600px and down */\r\n@media only screen and (max-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 1em;\r\n        line-height: 40px; \r\n    }\r\n    .Input-Container ::-webkit-input-placeholder { \r\n        line-height: 40px;  \r\n    }\r\n    .Input-Container input:focus {\r\n        outline: none;\r\n        text-decoration: none;\r\n        border: none;\r\n    }\r\n}\r\n\r\n/* 600px and up */\r\n@media only screen and (min-width: 600px) {\r\n    .Input-Container > * {\r\n        font-size: 18px;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -6608,7 +6608,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Home{\r\n    height: 100%;\r\n    width: 100%;\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    background-image: url(\"/image/background.jpg\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment: fixed;\r\n    background-position: center center;\r\n\r\n    color: white;\r\n\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n\r\n    transition: font-size .2s;\r\n}\r\n\r\n@media only screen and (max-width: 300px) {\r\n    .Home{ font-size: 9px; }\r\n}\r\n\r\n@media only screen and (min-width: 300px) {\r\n    .Home{ font-size: 11px; }\r\n}\r\n\r\n@media only screen and (min-width: 350px) {\r\n    .Home{ font-size: 13px; }\r\n}\r\n\r\n@media only screen and (min-width: 450px) {\r\n    .Home{ font-size: 15px; }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .Home{ font-size: 18px; }\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n    .Home{ font-size: 22px; }\r\n}\r\n\r\n@media only screen and (min-width: 992px) {\r\n    .Home{ font-size: 26px; }\r\n}\r\n\r\n@media only screen and (min-width: 1200px) {\r\n    .Home{ font-size: 2.2vw; }\r\n}", ""]);
+exports.push([module.i, ".Home{\r\n    height: 100%;\r\n    width: 100%;\r\n\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    background-image: url(\"/image/gradient2.jpg\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n    background-attachment: fixed;\r\n    background-position: center center;\r\n\r\n    color: white;\r\n\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n\r\n    transition: font-size .2s;\r\n}\r\n\r\n@media only screen and (max-width: 300px) {\r\n    .Home{ font-size: 9px; }\r\n}\r\n\r\n@media only screen and (min-width: 300px) {\r\n    .Home{ font-size: 11px; }\r\n}\r\n\r\n@media only screen and (min-width: 350px) {\r\n    .Home{ font-size: 13px; }\r\n}\r\n\r\n@media only screen and (min-width: 450px) {\r\n    .Home{ font-size: 15px; }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .Home{ font-size: 18px; }\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n    .Home{ font-size: 22px; }\r\n}\r\n\r\n@media only screen and (min-width: 992px) {\r\n    .Home{ font-size: 26px; }\r\n}\r\n\r\n@media only screen and (min-width: 1200px) {\r\n    .Home{ font-size: 2.2vw; }\r\n}", ""]);
 
 // exports
 
@@ -86570,6 +86570,22 @@ var Project = function Project(props) {
           size: "big"
         }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
           src: project.img.img5,
+          alt: project.title,
+          size: "big"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
+          src: project.img.img6,
+          alt: project.title,
+          size: "big"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
+          src: project.img.img7,
+          alt: project.title,
+          size: "big"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
+          src: project.img.img8,
+          alt: project.title,
+          size: "big"
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Img, {
+          src: project.img.img9,
           alt: project.title,
           size: "big"
         }));

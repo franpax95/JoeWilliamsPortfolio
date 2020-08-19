@@ -81,6 +81,10 @@ const Project = props => {
                     <Img src={project.img.img3} alt={project.title} size="big" />
                     <Img src={project.img.img4} alt={project.title} size="big" />
                     <Img src={project.img.img5} alt={project.title} size="big" />
+                    <Img src={project.img.img6} alt={project.title} size="big" />
+                    <Img src={project.img.img7} alt={project.title} size="big" />
+                    <Img src={project.img.img8} alt={project.title} size="big" />
+                    <Img src={project.img.img9} alt={project.title} size="big" />
                 </>;
             /** Sync */
             case 3:
