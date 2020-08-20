@@ -56,33 +56,33 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .Navbar a{ font-size: 13px; }
-    .Navbar button{ font-size: 24px; }
+    .Navbar button{ font-size: 18px; }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .Navbar{ right: 22px; }
     .Navbar a{ font-size: 14px; }
-    .Navbar button{ font-size: 26px; }
+    .Navbar button{ font-size: 20px; }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .Navbar{ right: 30px; }
     .Navbar a{ font-size: 15px; }
-    .Navbar button{ font-size: 28px; }
+    .Navbar button{ font-size: 22px; }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .Navbar{ right: 40px; }
     .Navbar a{ font-size: 16px; }
-    .Navbar button{ font-size: 30px; }
+    .Navbar button{ font-size: 26px; }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .Navbar{ right: 43px; }
     .Navbar a{ font-size: 18px; }
-    .Navbar button{ font-size: 34px; }
+    .Navbar button{ font-size: 30px; }
 }
