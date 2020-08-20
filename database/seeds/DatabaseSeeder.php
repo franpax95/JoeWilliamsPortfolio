@@ -38,12 +38,17 @@ class DatabaseSeeder extends Seeder
 
         $velvet = json_encode(
             array(
-                "cover"=> "/image/velvet000675.jpg",
-                "img1"=> "/image/velvet000675.jpg",
-                "img2"=> "/image/velvet000682.jpg",
-                "img3"=> "/image/velvet000666.jpg",
-                "img4"=> "/image/velvet000681.jpg",
-                "img5"=> "/image/velvet_crop.jpg"
+                "cover"=> "/image/DSCF0251.jpg",
+                "img1"=> "/image/DSCF0251.jpg",
+                "img2"=> "/image/DSCF0211.jpg",
+                "img3"=> "/image/DSCF0460.jpg",
+                "img4"=> "/image/DSCF0868.jpg",
+                "img5"=> "/image/DSCF0542.jpg", 
+                "img6"=> "/image/DSCF0550.jpg",
+                "img7"=> "/image/DSCF0836.jpg",
+                "img8"=> "/image/DSCF0413.jpg",
+                "img9"=> "/image/DSCF0765.jpg"  
+
             )
         );
         Projects::create([
