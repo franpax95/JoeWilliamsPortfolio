@@ -6627,7 +6627,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Project{\r\n    padding-bottom: 3vh;\r\n    min-width: 100vw;\r\n}\r\n\r\n.Project .title{\r\n    position: fixed;\r\n    top: 70px;\r\n\r\n    font-weight: bold;\r\n    text-transform: uppercase;\r\n\r\n    transition: font-size .2s;\r\n}\r\n.Project .back{\r\n    position: fixed;\r\n    top: 2vh;\r\n    \r\n    background: none;\r\n    color: black;\r\n\r\n    transition: color .4s, font-size .2s;\r\n}\r\n.Project .back:hover{ color: gray; }\r\n\r\n.Project .Description{\r\n    height: 80vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n}\r\n.Project .Description *,\r\n.Project .Details p{ \r\n    min-width: 300px;\r\n    max-width: 1000px;\r\n    transition: font-size .2s; \r\n}\r\n.Project .Description .desc{ \r\n    width: 51vw;\r\n    margin-top: auto;\r\n}\r\n.Project .Description .type{\r\n    width: 51vw;\r\n    justify-self: flex-end;\r\n    margin-top: auto;\r\n    font-size: 0.9em; \r\n}\r\n.Project .Details p{ \r\n    width: 75vw;\r\n    padding-bottom: 15vh;\r\n    padding-right: 10vw;\r\n}\r\n\r\n.Project .Img{\r\n    height: 75vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.Project .Img img{ object-fit: cover; }\r\n.Project .Img.big{ padding: 0 5px; }\r\n.Project .Img.big img{ height: 100%; }\r\n.Project .Img.medium{ padding: 0 50px; }\r\n.Project .Img.medium img{ height: 90%; }\r\n.Project .Img.small{ padding: 0 6vw; }\r\n.Project .Img.small img{ height: 80%; }\r\n.Project.background-none .Img.medium{ margin: 0 5px; }\r\n.Project.c-word .Img.medium{ background-color: #625455; }\r\n.Project.fluttering-flamingo .Img.medium{ background-color: #935a49; }\r\n.Project.lara-logan .Img.medium{ background-color: #78423c; }\r\n.Project.human-herd .Img.small{ background-color: #625455; }\r\n\r\n.Project .Frame{\r\n    min-height: 70vh;\r\n    min-width: 140vh;\r\n}\r\n@media only screen and (max-width: 600px) {\r\n    .Project .Frame{\r\n        min-height: 80vw;\r\n        min-width: 120vw;\r\n    }\r\n    .Project .Description .desc,\r\n    .Project .Description .type,\r\n    .Project .Details {\r\n        line-height: calc(3vh + 5px);\r\n    }\r\n}\r\n\r\n@media only screen and (max-width: 300px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 11px;\r\n        left: 15px;\r\n    }\r\n    .Project > *:last-child{ padding: 15px; }\r\n    .Project .Description{\r\n        padding: 0 15px;\r\n        font-size: 11px;\r\n        line-height: 20px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 15px;\r\n        font-size: 11px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 300px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 12px;\r\n        left: 15px;\r\n    }\r\n    .Project > *:last-child{ padding: 15px; }\r\n    .Project .Description{\r\n        padding: 0 25px 0 15px;\r\n        font-size: 12px;\r\n        line-height: 22px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 25px;\r\n        font-size: 12px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 350px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 15px; \r\n        left: 15px;\r\n    }\r\n    .Project > *:last-child{ padding: 15px; }\r\n    .Project .Description{\r\n        padding: 0 25px 0 15px;\r\n        font-size: 13px;\r\n        line-height: 24px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 25px;\r\n        font-size: 13px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 450px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 19px;\r\n        left: 20px;\r\n    }\r\n    .Project > *:last-child{ padding: 20px; }\r\n    .Project .Description{\r\n        padding: 0 30px 0 20px;\r\n        font-size: 14px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 30px;\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 22px;\r\n        left: 25px;\r\n    }\r\n    .Project > *:last-child{ padding: 25px; }\r\n    .Project .Description{\r\n        padding: 0 35px 0 25px;\r\n        font-size: 15px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 35px;\r\n        font-size: 15px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 24px;\r\n        left: 35px;\r\n    }\r\n    .Project > *:last-child{ padding: 35px; }\r\n    .Project .Description{\r\n        padding: 0 55px 0 35px;\r\n        font-size: 15px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 55px;\r\n        font-size: 15px;\r\n    }\r\n    .Project.dark-elf .Img{\r\n        align-self: flex-end;\r\n        justify-self: flex-end;\r\n        margin-left: auto;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 992px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 26px;\r\n        left: 45px; \r\n    }\r\n    .Project > *:last-child{ padding: 45px; }\r\n    .Project .Description{\r\n        padding: 0 65px 0 45px;\r\n        font-size: 16px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 65px;\r\n        font-size: 16px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 1200px) {\r\n    .Project .title,\r\n    .Project .back {\r\n        font-size: 25px;\r\n        left: 28px;\r\n    }\r\n    .Project > *:last-child{ padding: 55px;  }\r\n    .Project .Description{\r\n        padding: 0 60px 0 28px;\r\n        font-size: 13px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 80px;\r\n        font-size: 17px;\r\n    }\r\n}", ""]);
+exports.push([module.i, ".Project{\r\n    padding-bottom: 3vh;\r\n    min-width: 100vw;\r\n}\r\n\r\n.Project .title{\r\n    position: fixed;\r\n    top: 70px;\r\n\r\n    font-weight: bold;\r\n    text-transform: uppercase;\r\n\r\n    transition: font-size .2s;\r\n}\r\n.Project .back{\r\n    position: fixed;\r\n    top: 2vh;\r\n    \r\n    background: none;\r\n    color: black;\r\n\r\n    transition: color .4s, font-size .2s;\r\n}\r\n.Project .back:hover{ color: gray; }\r\n\r\n.Project .Description{\r\n    height: 80vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n}\r\n.Project .Description *,\r\n.Project .Details p{ \r\n    min-width: 300px;\r\n    max-width: 1000px;\r\n    transition: font-size .2s; \r\n}\r\n.Project .Description .desc{ \r\n    width: 51vw;\r\n    margin-top: auto;\r\n}\r\n.Project .Description .type{\r\n    width: 51vw;\r\n    justify-self: flex-end;\r\n    margin-top: auto;\r\n    font-size: 0.8em; \r\n}\r\n.Project .Details p{ \r\n    width: 75vw;\r\n    padding-bottom: 15vh;\r\n    padding-right: 10vw;\r\n}\r\n\r\n.Project .Img{\r\n    height: 75vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.Project .Img img{ object-fit: cover; }\r\n.Project .Img.big{ padding: 0 5px; }\r\n.Project .Img.big img{ height: 100%; }\r\n.Project .Img.medium{ padding: 0 50px; }\r\n.Project .Img.medium img{ height: 90%; }\r\n.Project .Img.small{ padding: 0 6vw; }\r\n.Project .Img.small img{ height: 80%; }\r\n.Project.background-none .Img.medium{ margin: 0 5px; }\r\n.Project.c-word .Img.medium{ background-color: #625455; }\r\n.Project.fluttering-flamingo .Img.medium{ background-color: #935a49; }\r\n.Project.lara-logan .Img.medium{ background-color: #78423c; }\r\n.Project.human-herd .Img.small{ background-color: #625455; }\r\n\r\n.Project .Frame{\r\n    min-height: 70vh;\r\n    min-width: 140vh;\r\n}\r\n@media only screen and (max-width: 600px) {\r\n    .Project .Frame{\r\n        min-height: 80vw;\r\n        min-width: 120vw;\r\n    }\r\n    .Project .Description .desc,\r\n    .Project .Description .type,\r\n    .Project .Details {\r\n        line-height: calc(3vh + 5px);\r\n    }\r\n}\r\n\r\n@media only screen and (max-width: 300px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 10px;\r\n        left: 15px;\r\n    }\r\n    .Project > *:last-child{ padding: 15px; }\r\n    .Project .Description{\r\n        padding: 0 15px;\r\n        font-size: 10px;\r\n        line-height: 20px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 15px;\r\n        font-size: 10px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 300px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 12px;\r\n        left: 15px;\r\n    }\r\n    .Project > *:last-child{ padding: 15px; }\r\n    .Project .Description{\r\n        padding: 0 25px 0 15px;\r\n        font-size: 10px;\r\n        line-height: 22px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 25px;\r\n        font-size: 10px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 350px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 15px; \r\n        left: 15px;\r\n    }\r\n    .Project > *:last-child{ padding: 15px; }\r\n    .Project .Description{\r\n        padding: 0 25px 0 15px;\r\n        font-size: 11px;\r\n        line-height: 24px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 25px;\r\n        font-size: 11px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 450px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 19px;\r\n        left: 20px;\r\n    }\r\n    .Project > *:last-child{ padding: 20px; }\r\n    .Project .Description{\r\n        padding: 0 30px 0 20px;\r\n        font-size: 12px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 30px;\r\n        font-size: 12px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 22px;\r\n        left: 25px;\r\n    }\r\n    .Project > *:last-child{ padding: 25px; }\r\n    .Project .Description{\r\n        padding: 0 35px 0 25px;\r\n        font-size: 12px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 35px;\r\n        font-size: 12px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 768px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 23px;\r\n        left: 35px;\r\n    }\r\n    .Project > *:last-child{ padding: 35px; }\r\n    .Project .Description{\r\n        padding: 0 55px 0 35px;\r\n        font-size: 12px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 55px;\r\n        font-size: 12px;\r\n    }\r\n    .Project.dark-elf .Img{\r\n        align-self: flex-end;\r\n        justify-self: flex-end;\r\n        margin-left: auto;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 992px) {\r\n    .Project .title,\r\n    .Project .back { \r\n        font-size: 24px;\r\n        left: 45px; \r\n    }\r\n    .Project > *:last-child{ padding: 45px; }\r\n    .Project .Description{\r\n        padding: 0 65px 0 45px;\r\n        font-size: 13px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 65px;\r\n        font-size: 13px;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 1200px) {\r\n    .Project .title,\r\n    .Project .back {\r\n        font-size: 25px;\r\n        left: 28px;\r\n    }\r\n    .Project > *:last-child{ padding: 55px;  }\r\n    .Project .Description{\r\n        padding: 0 60px 0 28px;\r\n        font-size: 13px;\r\n    }\r\n    .Project .Details{\r\n        padding: 0 80px;\r\n        font-size: 13px;\r\n    }\r\n}", ""]);
 
 // exports
 
@@ -86362,8 +86362,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Project_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Project.css */ "./resources/react/pages/Project/Project.css");
 /* harmony import */ var _Project_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Project_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _components_util__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/util */ "./resources/react/components/util/index.js");
-/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-icons/ai */ "./node_modules/react-icons/ai/index.esm.js");
+/* harmony import */ var react_spring__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-spring */ "./node_modules/react-spring/web.js");
+/* harmony import */ var _components_util__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/util */ "./resources/react/components/util/index.js");
+/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-icons/ai */ "./node_modules/react-icons/ai/index.esm.js");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -86387,18 +86388,38 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 /** Description + type component */
 
 var Description = function Description(_ref) {
   var description = _ref.description,
       type = _ref.type;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "Description"
+  var ref = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])();
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      _useState2 = _slicedToArray(_useState, 2),
+      display = _useState2[0],
+      setDisplay = _useState2[1];
+
+  var spring = Object(react_spring__WEBPACK_IMPORTED_MODULE_4__["useSpring"])({
+    opacity: display ? 1 : 0
+  });
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    console.log(ref);
+    if (ref.current && ref.current.scrollLeft > 100) setDisplay(false);else setDisplay(true);
+  }, [ref]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_4__["animated"].div, {
+    className: "Description",
+    ref: ref,
+    onClick: function onClick() {
+      console.log(document.body.scrollLeft);
+    },
+    style: spring
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "desc"
-  }, Object(_components_util__WEBPACK_IMPORTED_MODULE_4__["nl2br"])(description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, Object(_components_util__WEBPACK_IMPORTED_MODULE_5__["nl2br"])(description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "type"
-  }, Object(_components_util__WEBPACK_IMPORTED_MODULE_4__["nl2br"])(type)));
+  }, Object(_components_util__WEBPACK_IMPORTED_MODULE_5__["nl2br"])(type)));
 };
 /** Img component */
 
@@ -86425,7 +86446,7 @@ var Details = function Details(_ref3) {
   var details = _ref3.details;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "Details"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, Object(_components_util__WEBPACK_IMPORTED_MODULE_4__["nl2br"])(details)));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, Object(_components_util__WEBPACK_IMPORTED_MODULE_5__["nl2br"])(details)));
 };
 
 var Project = function Project(props) {
@@ -86433,10 +86454,10 @@ var Project = function Project(props) {
   var id = props.match.params.id;
   /** fetch data effect */
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({}),
-      _useState2 = _slicedToArray(_useState, 2),
-      project = _useState2[0],
-      setProject = _useState2[1];
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({}),
+      _useState4 = _slicedToArray(_useState3, 2),
+      project = _useState4[0],
+      setProject = _useState4[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     var fetchData = /*#__PURE__*/function () {
@@ -86470,10 +86491,10 @@ var Project = function Project(props) {
   }, []);
   /** className effect */
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('background-none'),
-      _useState4 = _slicedToArray(_useState3, 2),
-      className = _useState4[0],
-      setClassName = _useState4[1];
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('background-none'),
+      _useState6 = _slicedToArray(_useState5, 2),
+      className = _useState6[0],
+      setClassName = _useState6[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     if (Object.values(project).length) {
@@ -86691,14 +86712,27 @@ var Project = function Project(props) {
     }
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_util__WEBPACK_IMPORTED_MODULE_4__["ProjectsLayout"], {
+  var ref = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])();
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      _useState8 = _slicedToArray(_useState7, 2),
+      display = _useState8[0],
+      setDisplay = _useState8[1];
+
+  var spring = Object(react_spring__WEBPACK_IMPORTED_MODULE_4__["useSpring"])({
+    opacity: display ? 1 : 0
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_util__WEBPACK_IMPORTED_MODULE_5__["ProjectsLayout"], {
     className: "Project ".concat(className)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "title"
-  }, project.title || ''), Object.values(project).length && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Description, {
+  }, project.title || ''), Object.values(project).length && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_4__["animated"].div, {
+    style: spring,
+    ref: ref
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Description, {
     description: project.description,
     type: project.type
-  }), Object.values(project).length && renderProject(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  })), Object.values(project).length && renderProject(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     style: {
       display: 'flex'
     }
@@ -86951,7 +86985,7 @@ var CHANGE_DESCRIPTION = 'projects_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWilliams\JoeWilliamsPortfolio\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\WORK\Laravel\JoeWilliamsPortfolio\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

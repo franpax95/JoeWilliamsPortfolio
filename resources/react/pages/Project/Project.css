@@ -44,7 +44,7 @@
     width: 51vw;
     justify-self: flex-end;
     margin-top: auto;
-    font-size: 0.9em; 
+    font-size: 0.8em; 
 }
 .Project .Details p{ 
     width: 75vw;
@@ -90,18 +90,18 @@
 @media only screen and (max-width: 300px) {
     .Project .title,
     .Project .back { 
-        font-size: 11px;
+        font-size: 10px;
         left: 15px;
     }
     .Project > *:last-child{ padding: 15px; }
     .Project .Description{
         padding: 0 15px;
-        font-size: 11px;
+        font-size: 10px;
         line-height: 20px;
     }
     .Project .Details{
         padding: 0 15px;
-        font-size: 11px;
+        font-size: 10px;
     }
 }
 
@@ -114,12 +114,12 @@
     .Project > *:last-child{ padding: 15px; }
     .Project .Description{
         padding: 0 25px 0 15px;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 22px;
     }
     .Project .Details{
         padding: 0 25px;
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -132,12 +132,12 @@
     .Project > *:last-child{ padding: 15px; }
     .Project .Description{
         padding: 0 25px 0 15px;
-        font-size: 13px;
+        font-size: 11px;
         line-height: 24px;
     }
     .Project .Details{
         padding: 0 25px;
-        font-size: 13px;
+        font-size: 11px;
     }
 }
 
@@ -150,11 +150,11 @@
     .Project > *:last-child{ padding: 20px; }
     .Project .Description{
         padding: 0 30px 0 20px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .Project .Details{
         padding: 0 30px;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -167,28 +167,28 @@
     .Project > *:last-child{ padding: 25px; }
     .Project .Description{
         padding: 0 35px 0 25px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .Project .Details{
         padding: 0 35px;
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .Project .title,
     .Project .back { 
-        font-size: 24px;
+        font-size: 23px;
         left: 35px;
     }
     .Project > *:last-child{ padding: 35px; }
     .Project .Description{
         padding: 0 55px 0 35px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .Project .Details{
         padding: 0 55px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .Project.dark-elf .Img{
         align-self: flex-end;
@@ -200,17 +200,17 @@
 @media only screen and (min-width: 992px) {
     .Project .title,
     .Project .back { 
-        font-size: 26px;
+        font-size: 24px;
         left: 45px; 
     }
     .Project > *:last-child{ padding: 45px; }
     .Project .Description{
         padding: 0 65px 0 45px;
-        font-size: 16px;
+        font-size: 13px;
     }
     .Project .Details{
         padding: 0 65px;
-        font-size: 16px;
+        font-size: 13px;
     }
 }
 
@@ -227,6 +227,6 @@
     }
     .Project .Details{
         padding: 0 80px;
-        font-size: 17px;
+        font-size: 13px;
     }
 }
