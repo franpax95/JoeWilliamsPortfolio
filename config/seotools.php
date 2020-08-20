@@ -9,8 +9,8 @@ return [
          * The default configurations to be used by the meta generator.
          */
         'defaults'       => [
-            'title'        => "Velvet Distortion", // set false to total remove
-            'titleBefore'  => "Joe Williams", // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
+            'title'        => "Joe Williams", // set false to total remove
+            'titleBefore'  => "Velvet Distortion", // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
             'description'  => 'Joe Williams multidisciplinary designer and maker currently based in Málaga, Spain. Passioate about blurring the lines between art and design through creative thinking to produce unique outcomes for every project.', // set false to total remove
             'separator'    => ' - ',
             'keywords'     => [],
@@ -36,7 +36,7 @@ return [
          * The default configurations to be used by the opengraph generator.
          */
         'defaults' => [
-            'title'       => 'Velvet Distortion', // set false to total remove
+            'title'       => 'Joe Williams', // set false to total remove
             'description' => 'Joe Williams multidisciplinary designer and maker currently based in Málaga, Spain. Passioate about blurring the lines between art and design through creative thinking to produce unique outcomes for every project.', // set false to total remove
             'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => false,
@@ -58,7 +58,7 @@ return [
          * The default configurations to be used by the json-ld generator.
          */
         'defaults' => [
-            'title'       => 'Velvet Distortion', // set false to total remove
+            'title'       => 'Joe Williams', // set false to total remove
             'description' => 'Joe Williams multidisciplinary designer and maker currently based in Málaga, Spain. Passioate about blurring the lines between art and design through creative thinking to produce unique outcomes for every project.', // set false to total remove
             'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',

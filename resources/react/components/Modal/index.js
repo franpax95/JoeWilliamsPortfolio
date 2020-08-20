@@ -1,6 +1,7 @@
 import React from 'react';
 import './Modal.css';
 import {Button,ButtonLink} from '../Button';
+import { Link } from 'react-router-dom';
 
 export const Modal = ({sentEmail,onClickButton}) => {
 
@@ -27,7 +28,7 @@ export const Modal = ({sentEmail,onClickButton}) => {
             }
             <br />
             {
-                sentEmail ?  <ButtonLink text='HOME' type='button' clase='modal-button'/> :  <Button text='RETRY' type='button' clase='modal-button' onClick={onClickButton }/>
+                sentEmail ?  <Link to='/' className='modal-button alignc justifyc'>HOME</Link> :  <Button text='RETRY' type='button' clase='modal-button' onClick={onClickButton }/>
             }
         </div>
     </div>

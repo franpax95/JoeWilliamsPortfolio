@@ -19,6 +19,9 @@ html, body, #app, .App{
     height: 100%;
     position: relative;
 }
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#app::-webkit-scrollbar { width: 1px; }
 
 .App{
     overflow: auto;

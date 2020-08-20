@@ -1,26 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Project.css';
+
+import { animated, useSpring } from 'react-spring';
 import { ProjectsLayout, nl2br } from '../../components/util';
 
 
 /** Description + type component */
-const Description = ({ description, type }) => {
-    const ref = useRef();
-    const [display, setDisplay] = useState(true);
-    const spring = useSpring({
-        opacity: display ? 1 : 0
-    });
-
-    useEffect(() => {
-        console.log(ref);
-        if(ref.current && ref.current.scrollLeft > 100) setDisplay(false);
-        else setDisplay(true);
-    }, [ref]);
-
+const Description = ({ description, type, springOp, springPos }) => {
     return (
-        <animated.div className="Description" ref={ref} onClick={() => { console.log(document.body.scrollLeft) }} style={spring}>
-            <div className="desc">{nl2br(description)}</div>
-            <div className="type">{nl2br(type)}</div>
+        <animated.div className="Description" style={springOp}>
+            <animated.div className="desc" style={springPos}>{nl2br(description)}</animated.div>
+            <animated.div className="type" style={springPos}>{nl2br(type)}</animated.div>
         </animated.div>
     );
 }
@@ -144,23 +134,40 @@ const Project = props => {
         }
     }
 
-
     const ref = useRef();
     const [display, setDisplay] = useState(true);
-    const spring = useSpring({
-        opacity: display ? 1 : 0
-    });
-    
+    const springOp = useSpring({ opacity: display ? 1 : 0 });
+    const springPos = useSpring({ transform: display ? 'translateX(0px)' : 'translateX(-150px)' });
+
+    const onWheel = e => {
+        const largeContainerScrollPosition = ref.current.scrollLeft;
+        ref.current.scrollTo({
+            top: 0,
+            left: largeContainerScrollPosition + e.deltaY,
+            behaviour: 'smooth' //if you want smooth scrolling
+        });
+    }
+
+    const handleScroll = e => {
+        let limit = (window.innerWidth > 1200) ? window.innerWidth*0.15 : window.innerWidth*0.25;
+        if(ref.current.scrollLeft > limit) setDisplay(false);
+        else setDisplay(true);
+    }
+
+    useEffect(() => {
+        ref.current.addEventListener('scroll', handleScroll, true);
+        return (() => { ref.current.removeEventListener('scroll', handleScroll); })
+    }, []);
 
     return (
-        <ProjectsLayout className={`Project ${className}`}>
+        <div className={`Project ProyectsLayout ${className}`} onWheel={onWheel} ref={ref}>
             <div className="title">{project.title || ''}</div>
             {/* <Link className="back" to="/projects"><AiOutlineArrowLeft /></Link> */}
 
-            {Object.values(project).length && <animated.div style={spring}ref={ref}><Description description={project.description} type={project.type} /></animated.div>}
+            {Object.values(project).length && <Description {...project} springOp={springOp} springPos={springPos} />}
             {Object.values(project).length && renderProject()}
             <div style={{ display: 'flex' }}></div>
-        </ProjectsLayout>
+        </div>
     );
 }
 

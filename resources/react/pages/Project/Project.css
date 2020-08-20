@@ -1,7 +1,23 @@
 .Project{
     padding-bottom: 3vh;
     min-width: 100vw;
+
+    height: 100%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    overflow-y: hidden;
+    overflow-x: scroll;
 }
+
+.Project::-webkit-scrollbar { height: 5px; }
+.Project::-webkit-scrollbar-track { background: lightgray; }/* Track */
+.Project::-webkit-scrollbar-thumb { background: darkgray; }/* Handle */
+.Project::-webkit-scrollbar-thumb:hover { background: gray;  }/* Handle on hover */
 
 .Project .title{
     position: fixed;
@@ -39,6 +55,7 @@
 .Project .Description .desc{ 
     width: 51vw;
     margin-top: auto;
+    position: relative;
 }
 .Project .Description .type{
     width: 51vw;
@@ -47,9 +64,10 @@
     font-size: 0.8em; 
 }
 .Project .Details p{ 
-    width: 75vw;
-    padding-bottom: 15vh;
-    padding-right: 10vw;
+    width: 51vw;
+    padding-bottom: 10vh;
+    /* padding-right: 7vw; */
+    word-break: break-all;
 }
 
 .Project .Img{

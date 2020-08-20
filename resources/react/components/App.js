@@ -17,7 +17,7 @@ import Contact from '../pages/Contact';
 const App = () => {
     const location = useLocation();
     const transitions = useTransition(location, location => location.pathname, {
-        from: { opacity: 0, position: 'absolute' },
+        from: { opacity: 0, position: 'relative' },
         enter: { opacity: 1,},
         // update: { opacity: 1 },
         leave: { opacity: 0, },
