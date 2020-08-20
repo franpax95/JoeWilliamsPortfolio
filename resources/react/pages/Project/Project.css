@@ -236,7 +236,7 @@
     .Project .title,
     .Project .back {
         font-size: 25px;
-        left: 28px;
+        left: 48px;
     }
     .Project > *:last-child{ padding: 55px;  }
     .Project .Description{

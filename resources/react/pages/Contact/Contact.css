@@ -4,7 +4,14 @@
     align-items: center;
     flex-flow: column;
    
-    background-image: url("/image/gradient2.jpg");
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(242,239,242,1) 25%, rgba(184,164,169,1) 72%, rgba(177,153,159,1) 83%, rgba(165,136,143,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(7%, rgba(255,255,255,1)), color-stop(25%, rgba(242,239,242,1)), color-stop(72%, rgba(184,164,169,1)), color-stop(83%, rgba(177,153,159,1)), color-stop(100%, rgba(165,136,143,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(242,239,242,1) 25%, rgba(184,164,169,1) 72%, rgba(177,153,159,1) 83%, rgba(165,136,143,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(242,239,242,1) 25%, rgba(184,164,169,1) 72%, rgba(177,153,159,1) 83%, rgba(165,136,143,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(242,239,242,1) 25%, rgba(184,164,169,1) 72%, rgba(177,153,159,1) 83%, rgba(165,136,143,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(242,239,242,1) 25%, rgba(184,164,169,1) 72%, rgba(177,153,159,1) 83%, rgba(165,136,143,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a5888f', GradientType=0 );
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

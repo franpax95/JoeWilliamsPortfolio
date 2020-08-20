@@ -109,7 +109,7 @@ const Project = props => {
             /** lara logan case */
             case 6:
                 return <>
-                    <Img src={project.img.img1} alt={project.title} size="medium" />
+                    <Img src={project.img.img1} alt={project.title} size="medium" style={{ padding: '0 15vw' }} />
                     <Img src={project.img.img2} alt={project.title} size="medium" />
                     <Img src={project.img.img3} alt={project.title} size="medium" />
                     <Img src={project.img.img4} alt={project.title} size="medium" />

@@ -70,7 +70,7 @@ class DatabaseSeeder extends Seeder
         Projects::create([
             'title' => "Sync",
             'description' => "A sculpture representing a visual analysis of human synchronization through rhythm in a confined space. The sculpture consists of a pattern created by people's movements in response to the sounds they hear. The pattern is divided into specific time frames that have each been screen printed on layers of perspex, as the rhythm progresses you can see the fluctuations of synchronized movements move through the crowd. The layers are then held together by two concrete blocks that emulate the walls of this confined space.",
-            'type' => "Conceptual Design using mixed media.",
+            'type' => "Conceptual Sculpture Design using mixed media.",
             'details' => "",
             'img' => $sync,
         ]);
