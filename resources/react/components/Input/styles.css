@@ -1,3 +1,9 @@
+.Input-Container {
+      overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .Input-Container:not(#container-input) {
     border-bottom: 2px solid white;
     color: white;
@@ -24,6 +30,10 @@
     resize: none;
     background: transparent;
     min-height: 120px;
+
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .Input-Container textarea:focus,input:focus  {
@@ -37,6 +47,11 @@
    -webkit-transition-delay: 9999s;
    transition-delay: 9999s;
 }
+
+.Input-Container textarea::-webkit-scrollbar { width: 5px; }
+.Input-Container textarea::-webkit-scrollbar-track { background: lightgray; }
+.Input-Container textarea::-webkit-scrollbar-thumb { background: darkgray; }
+.Input-Container textarea::-webkit-scrollbar-thumb:hover { background: gray;  }
 
 .Input-Container ::-webkit-input-placeholder { color:#fff;  }
 .Input-Container ::-moz-placeholder { color:#ffff; } 

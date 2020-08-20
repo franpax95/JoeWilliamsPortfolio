@@ -38,17 +38,22 @@ class DatabaseSeeder extends Seeder
 
         $velvet = json_encode(
             array(
-                "cover"=> "/image/velvet000675.jpg",
-                "img1"=> "/image/velvet000675.jpg",
-                "img2"=> "/image/velvet000682.jpg",
-                "img3"=> "/image/velvet000666.jpg",
-                "img4"=> "/image/velvet000681.jpg",
-                "img5"=> "/image/velvet_crop.jpg"
+                "cover"=> "/image/DSCF0251.jpg",
+                "img1"=> "/image/DSCF0251.jpg",
+                "img2"=> "/image/DSCF0211.jpg",
+                "img3"=> "/image/DSCF0460.jpg",
+                "img4"=> "/image/DSCF0868.jpg",
+                "img5"=> "/image/DSCF0542.jpg", 
+                "img6"=> "/image/DSCF0550.jpg",
+                "img7"=> "/image/DSCF0836.jpg",
+                "img8"=> "/image/DSCF0413.jpg",
+                "img9"=> "/image/DSCF0765.jpg"  
+
             )
         );
         Projects::create([
             'title' => "Velvet",
-            'description' => "Velvet is a collaborative design practice aimed to help engage people in a creative lifestyle, we make limited items all of which are handcrafted in the South of Spain. \n\n Working side by side with different creatives and local businesses, we strive to inspire a more ethical & sustainable choice in the creative industry. \n\n Already encouraging creative collaborations between different artists, we aim to encompass an array of elements within a creative lifestyle, ranging from bespoke clothing to experimental art books, furniture, and more. \n\n If you would like to take part in our collaborative journey don't hesitate to send us a message.",
+            'description' => "Velvet is a collaborative design practice aimed to help engage people in a creative lifestyle, we make limited items all of which are handcrafted in the South of Spain. \n\n Working side by side with different creatives and local businesses, we strive to inspire a more ethical & sustainable choice in the creative industry. \n\n Already encouraging creative collaborations between different artists, we aim to encompass an array of elements within a creative lifestyle, ranging from bespoke clothing to experimental art books, furniture, and more.",
             'type' => "Art Direction & Fashion Design",
             'details' => "",
             'img' => $velvet
@@ -87,7 +92,7 @@ class DatabaseSeeder extends Seeder
             'title' => "Fluttering Flamingo",
             'description' => "A publication analysing the flamingos flight patterns and yearly migration. This is a fascinating moment in nature as these birds are capable of migrating miles, at the exact date every year, from all over the world to lake Nakuru.",
             'type' => "Editorial Design & Custom Bookbinding",
-            'details' => "The publication also features fold-out pages showing the bird's flight formations. \n These pages are designed to mimic the flamingo's wingspan.",
+            'details' => "The publication also features fold-out pages showing the bird's flight formations. These pages are designed to mimic the flamingo's wingspan.",
             'img' => $finalFlamingo,
         ]);
 
@@ -164,56 +169,5 @@ class DatabaseSeeder extends Seeder
             'details' => "",
             'img' =>  $humanHerd,
         ]);
-
-
-
-        // $lethalCombination = json_encode(
-        //     array(
-        //         "cover" => "/image/lethal_combination.jpg",
-        //         "img1"  => "/image/lethal_combination.jpg"
-        //     )
-        // );
-        // Projects::create([
-        //     'title' => "Lethal Combination",
-        //     'description' => "",
-        //     'type' => "Custom typeface for logo design.",
-        //     'details' => "",
-        //     'img' =>  $lethalCombination
-        // ]);
-
-
-        // $readNews = json_encode(
-        //     array(
-        //         "cover"=> "/image/news_cover.jpg",
-        //         "img1"=> "/image/news.jpg",
-        //         "img2"=> "/image/news2.jpg",
-        //         "img3"=> "/image/news4.jpg",
-        //         "img4"=> "/image/news8.jpg",
-        //         "img5"=> "/image/news11.jpg",
-        //         "img6"=> "/image/news12.jpg",
-        //         "img7"=> "/image/news15.jpg"
-        //     )
-        // );
-        // Projects::create([
-        //     'title' => "I read the news today",
-        //     'description' => "We live in a world with so many constant news updates from so many sources its hard to keep track and judge which problems are important, weather it be a local problem or global. The idea behind this publication is to highlight important news articles over one summer and curate them into a manageable information for the reader. Non bias news from local to global hopefully giving up a better understanding of the things that have happened in this time",
-        //     'type' => "Editorial Design & Research",
-        //     'details' => "",
-        //     'img' => $readNews,
-        // ]);
-
-                // $jam = json_encode(
-        //     array(
-        //         "cover" => "/image/jamcover.png",
-        //         "img1"  => "/image/jamcover.png"
-        //     )
-        // );
-        // Projects::create([
-        //     'title' => "JAM",
-        //     'description' => "A short documentary on Bristols most vibrant jazz bars LEFTBANK. Every Thursday they hold a jam night where different musicians come together to create unique music. Most of the people who come to play have never met and are completely improvising, this creates an exciting atmosphere as each person brings a their own flair to the group creating a different music every night. We also designed a casing for the documentary as seen here.",
-        //     'type' => "",
-        //     'details' => "",
-        //     'img' => $jam,
-        // ]);
     }
 }

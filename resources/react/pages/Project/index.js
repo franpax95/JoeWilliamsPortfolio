@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Project.css';
-
-import { Link } from 'react-router-dom';
-
 import { ProjectsLayout, nl2br } from '../../components/util';
-
-import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 
 /** Description + type component */
@@ -81,6 +76,10 @@ const Project = props => {
                     <Img src={project.img.img3} alt={project.title} size="big" />
                     <Img src={project.img.img4} alt={project.title} size="big" />
                     <Img src={project.img.img5} alt={project.title} size="big" />
+                    <Img src={project.img.img6} alt={project.title} size="big" />
+                    <Img src={project.img.img7} alt={project.title} size="big" />
+                    <Img src={project.img.img8} alt={project.title} size="big" />
+                    <Img src={project.img.img9} alt={project.title} size="big" />
                 </>;
             /** Sync */
             case 3:
