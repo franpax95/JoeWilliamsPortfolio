@@ -77,12 +77,12 @@
 @media only screen and (min-width: 992px) {
     .Navbar{ right: 40px; }
     .Navbar a{ font-size: 16px; }
-    .Navbar button{ font-size: 26px; }
+    .Navbar button{ font-size: 26px; margin-top: 4px; }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .Navbar{ right: 43px; }
     .Navbar a{ font-size: 18px; }
-    .Navbar button{ font-size: 30px; }
+    .Navbar button{ font-size: 30px; margin-top: 6px; }
 }
