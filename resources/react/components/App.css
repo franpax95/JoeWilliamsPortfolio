@@ -12,6 +12,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: "Halogen-Light";
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 html, body, #app, .App{
