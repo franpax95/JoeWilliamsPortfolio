@@ -81571,7 +81571,7 @@ var Modal = function Modal(_ref) {
         style: {
           marginBottom: 10 + 'px'
         }
-      }, "!OOPS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "OPS!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "text-modal",
         style: {
           marginBottom: 10 + 'px'
@@ -82288,11 +82288,16 @@ var Contact = function Contact() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Contact-Container flex justifyc"
   }, showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
-    sentEmail: sentEmail,
+    sentEmail: false,
     onClickButton: function onClickButton() {
       return setShowModal(false);
     }
-  }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_util__WEBPACK_IMPORTED_MODULE_4__["SpaceBetween"], {
+  }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
+    sentEmail: false,
+    onClickButton: function onClickButton() {
+      return setShowModal(true);
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_util__WEBPACK_IMPORTED_MODULE_4__["SpaceBetween"], {
     height: "45vh"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_3__["default"], {
     onSubmit: handleSubmit,
@@ -83057,7 +83062,7 @@ var CHANGE_DESCRIPTION = 'projects_change_description';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\_Workbenchs\JoeWilliamsPortfolio\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\DOCUMENTOS\Proyectos\Codes\Proyectos\JoeWilliams\JoeWilliamsPortfolio\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })

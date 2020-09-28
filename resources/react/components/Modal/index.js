@@ -13,7 +13,7 @@ export const Modal = ({sentEmail,onClickButton}) => {
         } else {
             return (
                 <>
-                    <p className='text-modal' style={{marginBottom: 10 + 'px'}}>!OOPS</p>
+                    <p className='text-modal' style={{marginBottom: 10 + 'px'}}>OOPS!</p>
                     <p className='text-modal' style={{marginBottom: 10 + 'px'}}>SOMETHING WENT WRONG</p>
                     <p className='text-modal'>CHECK DETAILS</p>
                 </>
