@@ -14,7 +14,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        /** for shared hosting deploy (comment in local) */
+        // $this->app->bind('path.public', function() {
+        //     return base_path().'/public_html';
+        // });
     }
 
     /**
@@ -25,5 +28,10 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
+      
+        /** for shared hosting deploy (comment in local) */
+        // $this->app->bind('path.public', function() {
+        //     return base_path().'/../public_html';
+        // });
     }
 }
