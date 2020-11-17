@@ -7,6 +7,7 @@
 .Input-Container:not(#container-input) {
     border-bottom: 2px solid white;
     color: white;
+    margin: 15px 0;
     /* margin-bottom: 70px; */
 }
 
@@ -19,7 +20,7 @@
 }
 
 .Input-Container input {
-    margin: 15px 0;
+    
 }
 
 .Input-Container textarea{

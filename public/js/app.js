@@ -6475,7 +6475,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Input-Container {\r\n      overflow: auto;\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.Input-Container:not(#container-input) {\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n    /* margin-bottom: 70px; */\r\n}\r\n\r\n.Input-Container > *:not(textarea) {\r\n    width: 95%;\r\n    border: none;\r\n    color: white;\r\n    background: transparent;\r\n    min-height: 60px;\r\n}\r\n\r\n.Input-Container input {\r\n    margin: 15px 0;\r\n}\r\n\r\n.Input-Container textarea{\r\n    margin-top: 30px;\r\n    width: 95%;\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n    background: transparent;\r\n    min-height: 120px;\r\n\r\n    overflow: auto;\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container textarea::-webkit-scrollbar { width: 5px; }\r\n.Input-Container textarea::-webkit-scrollbar-track { background: lightgray; }\r\n.Input-Container textarea::-webkit-scrollbar-thumb { background: darkgray; }\r\n.Input-Container textarea::-webkit-scrollbar-thumb:hover { background: gray;  }\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff;  }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } \r\n.Input-Container :-ms-input-placeholder { color:#ffff; }  \r\n.Input-Container input:-moz-placeholder { color:#ffff; } ", ""]);
+exports.push([module.i, ".Input-Container {\r\n      overflow: auto;\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.Input-Container:not(#container-input) {\r\n    border-bottom: 2px solid white;\r\n    color: white;\r\n    margin: 15px 0;\r\n    /* margin-bottom: 70px; */\r\n}\r\n\r\n.Input-Container > *:not(textarea) {\r\n    width: 95%;\r\n    border: none;\r\n    color: white;\r\n    background: transparent;\r\n    min-height: 60px;\r\n}\r\n\r\n.Input-Container input {\r\n    \r\n}\r\n\r\n.Input-Container textarea{\r\n    margin-top: 30px;\r\n    width: 95%;\r\n    border: none;\r\n    color: white;\r\n    resize: none;\r\n    background: transparent;\r\n    min-height: 120px;\r\n\r\n    overflow: auto;\r\n    overflow-y: auto;\r\n    overflow-x: hidden;\r\n}\r\n\r\n.Input-Container textarea:focus,input:focus  {\r\n    outline: none;\r\n}\r\n\r\n.Input-Container input:-webkit-autofill,\r\n.Input-Container input:-webkit-autofill:hover,\r\n.Input-Container input:-webkit-autofill:focus,\r\n.Input-Container input:-webkit-autofill:active {\r\n   -webkit-transition-delay: 9999s;\r\n   transition-delay: 9999s;\r\n}\r\n\r\n.Input-Container textarea::-webkit-scrollbar { width: 5px; }\r\n.Input-Container textarea::-webkit-scrollbar-track { background: lightgray; }\r\n.Input-Container textarea::-webkit-scrollbar-thumb { background: darkgray; }\r\n.Input-Container textarea::-webkit-scrollbar-thumb:hover { background: gray;  }\r\n\r\n.Input-Container ::-webkit-input-placeholder { color:#fff;  }\r\n.Input-Container ::-moz-placeholder { color:#ffff; } \r\n.Input-Container :-ms-input-placeholder { color:#ffff; }  \r\n.Input-Container input:-moz-placeholder { color:#ffff; } ", ""]);
 
 // exports
 
@@ -81571,7 +81571,7 @@ var Modal = function Modal(_ref) {
         style: {
           marginBottom: 10 + 'px'
         }
-      }, "OPS!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "OOPS!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "text-modal",
         style: {
           marginBottom: 10 + 'px'
@@ -82288,16 +82288,11 @@ var Contact = function Contact() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Contact-Container flex justifyc"
   }, showModal ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
-    sentEmail: false,
+    sentEmail: sentEmail,
     onClickButton: function onClickButton() {
       return setShowModal(false);
     }
-  }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], {
-    sentEmail: false,
-    onClickButton: function onClickButton() {
-      return setShowModal(true);
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_util__WEBPACK_IMPORTED_MODULE_4__["SpaceBetween"], {
+  }) : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_util__WEBPACK_IMPORTED_MODULE_4__["SpaceBetween"], {
     height: "45vh"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_3__["default"], {
     onSubmit: handleSubmit,
