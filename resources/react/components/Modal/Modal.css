@@ -24,3 +24,42 @@
 .text-modal {
     font-size: 1.2em;
 }
+
+.text-modal-wrong {
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 480px) {
+    .text-hello {
+        margin-top: 17px;
+    }
+    .text-modal-wrong {
+        font-size: 1.1em;
+    }
+    .text-modal {
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 405px) {
+    .text-modal-wrong {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 380px) {
+    .text-modal-wrong {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 330px) {
+    .text-modal-wrong {
+        font-size: 0.8em;
+    }
+    .text-modal {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 300px) {
+    .text-modal-wrong {
+        font-size: 0.7em;
+    }
+}

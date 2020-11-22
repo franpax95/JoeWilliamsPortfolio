@@ -7,15 +7,24 @@ export const Modal = ({sentEmail,onClickButton}) => {
 
     const showMessageEmail = () => {
         if(sentEmail) {
-            return(
-                <p className='text-modal'>THANKS FOR SAYNG HELLO!</p>
-            )
+            if (window.innerWidth <= 480) {
+                return(
+                    <>
+                        <p className='text-modal'>THANKS FOR SAYING</p>
+                        <p className='text-modal text-hello'>HELLO!</p>
+                    </>   
+                )
+            } else {
+                return(
+                    <p className='text-modal'>THANKS FOR SAYING HELLO!</p>
+                )
+            }
         } else {
             return (
                 <>
-                    <p className='text-modal' style={{marginBottom: 10 + 'px'}}>OOPS!</p>
-                    <p className='text-modal' style={{marginBottom: 10 + 'px'}}>SOMETHING WENT WRONG</p>
-                    <p className='text-modal'>CHECK DETAILS</p>
+                    <p className='text-modal-wrong' style={{marginBottom: 10 + 'px'}}>OOPS!</p>
+                    <p className='text-modal-wrong' style={{marginBottom: 10 + 'px'}}>SOMETHING WENT WRONG</p>
+                    <p className='text-modal-wrong'>CHECK DETAILS</p>
                 </>
             )
         }
@@ -28,7 +37,7 @@ export const Modal = ({sentEmail,onClickButton}) => {
             }
             <br />
             {
-                sentEmail ?  <Link to='/' className='modal-button alignc justifyc'>HOME</Link> :  <Button text='RETRY' type='button' clase='modal-button' onClick={onClickButton }/>
+                sentEmail ?  <Button text='HOME' type='button' clase='modal-button' onClick={onClickButton}/> :  <Button text='RETRY' type='button' clase='modal-button' onClick={onClickButton }/>
             }
         </div>
     </div>
